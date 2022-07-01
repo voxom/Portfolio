@@ -9,7 +9,7 @@ export default function Hero() {
       {/* Text container */}
 
       <div className="font-title w-2/3 mx-auto text-4xl md:text-7xl font-bold text-center py-12 lg:p-10">
-        Hi, I'm Chad.
+        Hi, I&apos;m Chad.
         <div className="">
           <RoughNotationGroup show={true}>
             <Highlight color={colors[4]}>
