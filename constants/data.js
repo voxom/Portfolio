@@ -45,11 +45,11 @@ const userData = {
     },
   ],
   about: {
-    title: "Full-Stack Developer with a background in art and design",
+    title: "Full-Stack Developer with a background Engineering",
     description: [
-      `As an artist, I love learning about new artmaking methods and planning out dreamlike paintings. As a developer, I love solving problems and learning new technologies.`,
-      `I've been learning about web development for about 1 year since the start of January 2021. I was interested in learning how to build a website for myself to showcase my artworks, but I ended up loving the process because it was so similar to artmaking. I felt naturally at-home in this new environment where I could put my art and design skills to good use.`,
-      `After learning HTML, CSS, and JavaScript for the first 6 months, I felt I wasn't learning efficiently so I researched about other learning methods. One that stood out to me was a coding bootcamp called Thinkful. So, I signed up for their software engineering program where I flourished under a structured learning experience. Over the next 6 months, I learned React, Bootstrap, Node, Express, PostgreSQL, Test-Driven Development, Software Architecture, Data Structures, and Algorithms. Outside of the program, I taught myself other technologies like Tailwind CSS and NextJS.`,
+      `As an engineer, I love solving problems and understanding the logic behind everything. That is also why I like programming, I get to solve problems using logic and at the same time I get to create a work of art.`,
+      `I have always been fascinated by programming but I felt I lacked the right foundation for success. I read books and I created a few projects in Java but the technologies and languages seemed endless. I wanted to build a solid foundation and teach myself a useful skill.`,
+      `I chose to study Web Development through Thinkful's program. It taught me everything from the basics of Javascript, HTML, and CSS to React, Node, Express, PostgreSQL, Test-Driven Development, Data Structures and Algorithms. All the while building projects and completing challenges along the way. If I have learned anything from my experience, it is that I love to learn and create.`,
     ],
     currentProject: "Periodic Tables",
     currentProjectUrl: "https://periodic-tables-client-voxom.herokuapp.com/",

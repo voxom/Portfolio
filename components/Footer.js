@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <div
       className="
-      mt-20 max-w-6xl mx-auto px-4 py-10 md:py-20 
+      mt-10 max-w-6xl mx-auto px-4 py-10 md:py-20 
       "
     >
       <div className="flex flex-col space-y-4 md:space-y-0 items-center mt-8">
