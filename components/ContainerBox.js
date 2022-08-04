@@ -10,7 +10,7 @@ export default function ContainerBox({ children, ...customMeta }) {
 
     const meta = {
     title: "Chad Harrington - Full-Stack Developer",
-    description: `Full-stack developer with a background in art and design.`,
+    description: `Full-stack developer with a background in Engineering.`,
     image: "/avatar.png",
     type: "website",
     ...customMeta,

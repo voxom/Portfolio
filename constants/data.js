@@ -45,11 +45,11 @@ const userData = {
     },
   ],
   about: {
-    title: "Full-Stack Developer with a background Engineering",
+    title: "Full-Stack Developer with a background in Engineering",
     description: [
-      `As an engineer, I love solving problems and understanding the logic behind everything. That is also why I like programming, I get to solve problems using logic and at the same time I get to create a work of art.`,
+      `As an Engineer, I love solving problems and understanding the logic behind everything. That is also why I like programming, I get to solve problems using logic and at the same time I get to create a work of art.`,
       `I have always been fascinated by programming but I felt I lacked the right foundation for success. I read books and I created a few projects in Java but the technologies and languages seemed endless. I wanted to build a solid foundation and teach myself a useful skill.`,
-      `I chose to study Web Development through Thinkful's program. It taught me everything from the basics of Javascript, HTML, and CSS to React, Node, Express, PostgreSQL, Test-Driven Development, Data Structures and Algorithms. All the while building projects and completing challenges along the way. If I have learned anything from my experience, it is that I love to learn and create.`,
+      `I chose to study Web Development through Thinkful's program. It taught me everything from the basics of JavaScript, HTML, and CSS to PostgreSQL, Express, React, Node, Test-Driven Development, Data Structures and Algorithms. All the while building projects and completing challenges along the way. If I have learned anything from my experience, it is that I love to learn and create.`,
     ],
     currentProject: "Periodic Tables",
     currentProjectUrl: "https://periodic-tables-client-voxom.herokuapp.com/",
