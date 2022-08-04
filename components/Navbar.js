@@ -22,12 +22,21 @@ export default function Navbar() {
         <div className="flex items-center">
           <Link href="/">
             <a className="m-4" rel="noopener noreferrer">
-              <Image
-                src={userData.avatarUrl}
-                alt="logo"
-                width={80}
-                height={80}
-              />
+              {theme === "dark" ? (
+                <Image
+                  src={userData.avatarUrl_white}
+                  alt="logo"
+                  width={80}
+                  height={80}
+                />
+              ) : (
+                <Image
+                  src={userData.avatarUrl}
+                  alt="logo"
+                  width={80}
+                  height={80}
+                />
+              )}
             </a>
           </Link>
           <div className="text-shadow">

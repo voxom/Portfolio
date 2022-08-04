@@ -3,6 +3,7 @@ const userData = {
   name: "Chad Harrington",
   designation: "Full-Stack Developer",
   avatarUrl: "/logomin.PNG",
+  avatarUrl_white: "/logomin_white.PNG",
   email: "crharrington11@gmail.com",
   phone: "+1 (954) 235-3846",
   address: "Fort Worth, TX, United States.",
