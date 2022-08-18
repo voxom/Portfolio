@@ -1,4 +1,5 @@
 import userData from "@constants/data";
+import Image from "next/image";
 
 export default function Projects() {
   return (
@@ -17,6 +18,7 @@ export default function Projects() {
             github={proj.github}
             imgUrl={proj.imgUrl}
             number={`${idx + 1}`}
+            desc={proj.description}
             key={idx}
           />
         ))}
@@ -25,10 +27,15 @@ export default function Projects() {
   );
 }
 
-const ProjectCard = ({ title, link, github, imgUrl, number }) => {
+const ProjectCard = ({ title, link, github, imgUrl, desc, number }) => {
   return (
-    <>
-      <a href={link} target={title === 'Portfolio' ? '_self' : "_blank"} rel="noopener noreferrer" className="w-full block drop-shadow-3xl">
+    <div className="rounded-2xl max-w-sm">
+      <a
+        href={link}
+        target={title === "Portfolio" ? "_self" : "_blank"}
+        rel="noopener noreferrer"
+        className="w-full block drop-shadow-3xl"
+      >
         <div className="relative overflow-hidden rounded-2xl">
           <div className="h-72 object-cover">
             <img
@@ -37,19 +44,22 @@ const ProjectCard = ({ title, link, github, imgUrl, number }) => {
               className="transform hover:scale-125 transition duration-2000 ease-out object-cover h-full w-full"
             />
           </div>
-          <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-gray-900 rounded-md px-2">
-            {title}
-          </h1>
-          <h2 className="absolute top-20 left-10 text-gray-50 font-bold text-xl bg-gray-900 hover:bg-gray-500 rounded-md px-2">
-            <a href={github} target='_blank' rel="noopener noreferrer">GitHub</a>
+          <h2 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-gray-900 hover:bg-gray-500 rounded-md px-2">
+            <a href={github} target="_blank" rel="noopener noreferrer">
+              GitHub
+            </a>
           </h2>
           <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl bg-gray-900 rounded-md px-2">
             {number.length === 1 ? "0" + number : number}
           </h1>
         </div>
-      </a >
-
-    </>
-
+      </a>
+      <div className="p-6">
+        <h2 className="text-xl font-medium mb-2">{title}</h2>
+        <p>
+          {desc}
+        </p>
+      </div>
+    </div>
   );
 };

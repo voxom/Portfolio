@@ -11,6 +11,8 @@ export default function Navbar() {
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
+  
+
   useEffect(() => {
     setMounted(true);
   }, []);
@@ -25,14 +27,14 @@ export default function Navbar() {
               {theme === "dark" ? (
                 <Image
                   src={userData.avatarUrl_white}
-                  alt="logo"
+                  alt="logo_black"
                   width={80}
                   height={80}
                 />
               ) : (
                 <Image
                   src={userData.avatarUrl}
-                  alt="logo"
+                  alt="logo_white"
                   width={80}
                   height={80}
                 />
