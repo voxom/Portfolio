@@ -27,14 +27,14 @@ export default function Navbar() {
               {theme === "dark" ? (
                 <Image
                   src={userData.avatarUrl_white}
-                  alt="logo_black"
+                  alt="logo_white"
                   width={80}
                   height={80}
                 />
               ) : (
                 <Image
                   src={userData.avatarUrl}
-                  alt="logo_white"
+                  alt="logo_black"
                   width={80}
                   height={80}
                 />
