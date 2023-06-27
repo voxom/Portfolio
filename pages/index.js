@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <ContainerBox
       title="Chad Harrington - Full Stack Developer"
-      description="Self taught programmer with one year of experience"
+      description="Full-Stack Developer with two years of experience"
     >
       <Hero />
     </ContainerBox>

@@ -3,7 +3,6 @@ import Link from "next/link";
 import { useTheme } from "next-themes";
 import { useRouter } from "next/router";
 import userData from "@constants/data";
-import Image from "next/image";
 
 export default function Navbar() {
   const router = useRouter();
@@ -25,14 +24,14 @@ export default function Navbar() {
           <Link href="/">
             <a className="m-4" rel="noopener noreferrer">
               {theme === "dark" ? (
-                <Image
+                <img
                   src={userData.avatarUrl_white}
                   alt="logo_white"
                   width={80}
                   height={80}
                 />
               ) : (
-                <Image
+                <img
                   src={userData.avatarUrl}
                   alt="logo_black"
                   width={80}

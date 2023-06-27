@@ -10,7 +10,7 @@ const userData = {
   projects: [
     {
       title: "Periodic Tables",
-      link: "https://periodic-tables-client-voxom.herokuapp.com/",
+      link: "https://periodic-tables-frontend.onrender.com/",
       github: "https://github.com/voxom/Periodic_Tables",
       imgUrl: "/pdtables.PNG",
       description:
@@ -18,7 +18,7 @@ const userData = {
     },
     {
       title: "WeLoveMovies",
-      link: "https://welovemovies-frontend-voxom.herokuapp.com/",
+      link: "https://welovemovies-frontend-007.onrender.com/",
       github: "https://github.com/voxom/WeLoveMovies-Backend",
       imgUrl: "/welovemovies.PNG",
       description:
@@ -26,24 +26,27 @@ const userData = {
     },
     {
       title: "Flashcard-o-Matic",
-      link: "https://flashcard-app-voxom.netlify.app",
+      link: "https://flashcard-app-frontend.onrender.com/",
       github: "https://github.com/voxom/Flashcard_App",
       imgUrl: "/flashcard.PNG",
-      description: "Built a React application that uses an API to create, read, update, and delete records stored by the API. Manages the state of the application, defines routes and URLs, and uses state effectively over multiple components.",
+      description:
+        "Built a React application that uses an API to create, read, update, and delete records stored by the API. Manages the state of the application, defines routes and URLs, and uses state effectively over multiple components.",
     },
     {
       title: "Local Library",
       link: "https://local-library-voxom.netlify.app/",
       github: "https://github.com/voxom/Flashcard_App",
       imgUrl: "/locallibrary.PNG",
-      description: "This project was designed to test my ability to work with large datasets and build algorithms based on those datasets. Utilitizes different JavaScript methods to solve different problems.",
+      description:
+        "This project was designed to test my ability to work with large datasets and build algorithms based on those datasets. Utilitizes different JavaScript methods to solve different problems.",
     },
     {
       title: "Pomodoro Timer",
       link: "https://pomodoro-project-voxom.netlify.app/",
       github: "https://github.com/voxom/Pomodoro-Project",
       imgUrl: "/pomodoro.PNG",
-      description: "Interactive React application that uses buttons and timers. Manages the state of the React application and uses state effectively over multiple components.",
+      description:
+        "Interactive React application that uses buttons and timers. Manages the state of the React application and uses state effectively over multiple components.",
     },
     {
       title: "Portfolio",
@@ -70,6 +73,6 @@ const userData = {
     github: "https://github.com/voxom",
     email: "crharrington11@gmail.com",
   },
-};
+}
 
 export default userData;
