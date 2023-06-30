@@ -8,7 +8,6 @@ export const Highlight = ({ color, children }) => {
         color={color}
         iterations={3}
         multiline={true}
-        padding={[1, 1]}
       >
         {children}
       </RoughNotation>

@@ -17,7 +17,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 pt-4 pb-10">
+    <div className="max-w-7xl mx-auto px-4 pt-4 pb-4">
       <div className="flex md:flex-row justify-center md:justify-between items-center">
         {/* Logo / Home / Text */}
         <div className="flex items-center">

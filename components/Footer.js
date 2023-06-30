@@ -4,10 +4,10 @@ export default function Footer() {
   return (
     <div
       className="
-      mt-10 max-w-6xl mx-auto px-4 py-10 md:py-20 
+      max-w-6xl mx-auto px-4 md:py-20 
       "
     >
-      <div className="flex flex-col space-y-4 md:space-y-0 items-center mt-8">
+      <div className="flex flex-col space-y-4 md:space-y-0 items-center">
         <div className="social-icons flex flex-row space-x-8">
           <a
             href={userData.socialLinks.github}
@@ -61,7 +61,7 @@ export default function Footer() {
           </a>
         </div>
         <div className="m-8 text-center">
-          <p>2022 &copy; Chad Harrington. All Rights Reserved.</p>
+          <p>2023 &copy; Chad Harrington. All Rights Reserved.</p>
         </div>
       </div>
     </div>
