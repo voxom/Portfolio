@@ -1,7 +1,7 @@
 const userData = {
   githubUsername: "voxom",
   name: "Chad Harrington",
-  designation: "Full-Stack Developer",
+  designation: "Software Engineer",
   avatarUrl: "/logomin.PNG",
   avatarUrl_white: "/logomin_white.PNG",
   email: "crharrington11@gmail.com",
@@ -14,15 +14,14 @@ const userData = {
       github: "https://github.com/voxom/Periodic_Tables",
       imgUrl: "/pdtables.PNG",
       description:
-        "Built a Full-Stack Restaurant Reservation Application. Designed to allow the user to create, edit and seat an existing reservation. Search for an existing reservation via phone number and create tables.",
+        "Designed to allow the user to create, edit and search for an existing reservation.",
     },
     {
       title: "WeLoveMovies",
       link: "https://welovemovies-frontend-007.onrender.com/",
       github: "https://github.com/voxom/WeLoveMovies-Backend",
       imgUrl: "/welovemovies.PNG",
-      description:
-        "Built an API conforming to RESTful standards. Used Knex.js to write database queries for handling CRUD operations in an Express server.",
+      description: "Built an API conforming to RESTful standards.",
     },
     {
       title: "Flashcard-o-Matic",
@@ -30,7 +29,7 @@ const userData = {
       github: "https://github.com/voxom/Flashcard_App",
       imgUrl: "/flashcard.PNG",
       description:
-        "Built a React application that uses an API to create, read, update, and delete records stored by the API. Manages the state of the application, defines routes and URLs, and uses state effectively over multiple components.",
+        "Manages and uses the state of the application over multiple components.",
     },
     {
       title: "Local Library",
@@ -38,7 +37,7 @@ const userData = {
       github: "https://github.com/voxom/Flashcard_App",
       imgUrl: "/locallibrary.PNG",
       description:
-        "This project was designed to test my ability to work with large datasets and build algorithms based on those datasets. Utilitizes different JavaScript methods to solve different problems.",
+        "Utilitizes different JavaScript methods to solve different problems.",
     },
     {
       title: "Pomodoro Timer",
@@ -46,7 +45,7 @@ const userData = {
       github: "https://github.com/voxom/Pomodoro-Project",
       imgUrl: "/pomodoro.PNG",
       description:
-        "Interactive React application that uses buttons and timers. Manages the state of the React application and uses state effectively over multiple components.",
+        "Manages and uses the state of the application over multiple components.",
     },
     {
       title: "Portfolio",
@@ -57,17 +56,16 @@ const userData = {
     },
   ],
   about: {
-    title: "Full-Stack Developer with a background in Engineering",
+    title: "Chad Harrington",
     description: [
-      `As an Engineer, I am motivated to solve problems and passionate about fully understanding the logic that powers process and applications. Solving problems and architecting reusable solutions are why I enjoy programming.`,
-      `I have always been fascinated by programming, but felt I lacked the right foundation for success. I have read books and created a few projects utilizing Java but have always been eager to extend my capabilities into the vast array of technologies and languages available.`,
-      `I chose to study Web Development through Thinkful's program. It taught me everything from the basics of JavaScript, HTML, and CSS to PostgreSQL, Express, React, Node, Test-Driven Development, Data Structures and Algorithms. All the while building projects and completing challenges along the way. If I have learned anything from my experience, it is that I love to learn and create.`,
+      `As a Software Engineer,`,
+      `I am dedicated to solving problems and I am passionate about fully understanding the logic that drives these applications. Solving problems and designing reusable solutions are why I enjoy programming.`,
     ],
-    currentProject: "Periodic Tables",
-    currentProjectUrl: "https://periodic-tables-client-voxom.herokuapp.com/",
+    currentProject: "Contact Form",
+    currentProjectUrl: "https://chad-voxom-harrington.netlify.app/contact",
   },
   resumeUrl:
-    "https://docs.google.com/document/d/1EoG6cOxLpbbkeGGT3fCbpwGdhl0jJ_6B/edit?usp=sharing",
+    "https://docs.google.com/document/d/1zgwGA3EDxlu6P99mpQ6Q4mGCdcHm90K69XZwpif637I/edit?usp=sharing",
   socialLinks: {
     linkedin: "https://www.linkedin.com/in/chad-voxom-harrington",
     github: "https://github.com/voxom",

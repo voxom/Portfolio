@@ -1,5 +1,6 @@
 import Form from "./Form";
 
+
 export default function Contact() {
   return (
     <section>
@@ -10,9 +11,8 @@ export default function Contact() {
       </div>
       <div className="relative z-10 p-2 md:p-8 max-w-6xl mx-auto">
         <hr />
-        <p className="font-light text-center text-xl">
-          Message me and I&apos;ll get back to you as soon as I can.
-        </p>
+        <br />
+        <p className="font-light text-center text-xl">Currently being fixed...</p>
         <Form />
       </div>
     </section>
