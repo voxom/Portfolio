@@ -38,7 +38,7 @@ const ProjectCard = ({ title, link, github, imgUrl, desc, number }) => {
       >
         <div className="relative overflow-hidden rounded-2xl">
           <div className="h-72 object-cover">
-            <img
+            <Image
               src={imgUrl}
               alt="portfolio"
               className="transform hover:scale-125 transition duration-2000 ease-out object-cover h-full w-full"

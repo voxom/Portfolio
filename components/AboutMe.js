@@ -38,9 +38,9 @@ export default function AboutMe() {
                   display="block"
                   src="https://www.youtube.com/embed/PCeLkH8ohxw?si=rv4vSsYSfLLL_c48"
                   title="YouTube video player"
-                  frameborder="0"
+                  frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen
+                  alloFullScreen
                 ></iframe>
                 <br />
                 <br />
