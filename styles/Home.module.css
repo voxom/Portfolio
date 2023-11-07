@@ -122,4 +122,8 @@
   main {
     height: auto;
   }
+  iframe {
+    width: 100%;
+    flex-direction: fit-content;
+  }
 }

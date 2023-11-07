@@ -33,14 +33,13 @@ export default function AboutMe() {
             <div>
               <div>
                 <iframe
-                  width="560"
+                  width="100%"
                   height="315"
-                  display="block"
+                  display="fit-content"
                   src="https://www.youtube.com/embed/PCeLkH8ohxw?si=rv4vSsYSfLLL_c48"
                   title="YouTube video player"
-                  frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  alloFullScreen
+                  allowFullScreen
                 ></iframe>
                 <br />
                 <br />

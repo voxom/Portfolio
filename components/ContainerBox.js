@@ -9,8 +9,8 @@ export default function ContainerBox({ children, ...customMeta }) {
     const router = useRouter();
 
     const meta = {
-    title: "Chad Harrington - Full-Stack Developer",
-    description: `Full-stack Developer with a two years of experience.`,
+    title: "Chad Harrington - Software Engineer",
+    description: `Software Engineer with a two years of experience.`,
     image: "/avatar.png",
     type: "website",
     ...customMeta,
