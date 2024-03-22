@@ -23,11 +23,11 @@ export default function ContainerBox({ children, ...customMeta }) {
           <meta content={meta.description} name="description" />
           <meta
             property="og:url"
-            content={`https://chad-voxom-harrington.netlify.app${router.asPath}`}
+            content={`https://chad-harrington.netlify.app${router.asPath}`}
           />
           <link
             rel="canonical"
-            href={`https://chad-voxom-harrington.netlify.app${router.asPath}`}
+            href={`https://chad-harrington.netlify.app${router.asPath}`}
           />
           <meta property="og:type" content={meta.type} />
           <meta property="og:site_name" content="Chad Harrington" />
