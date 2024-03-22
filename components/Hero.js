@@ -19,12 +19,13 @@ export default function Hero() {
             </Highlight>
           </RoughNotationGroup>
         </div>
-        <Link href="/projects">
-          <a className="text-xl font-normal ring ring-[#614828] hover:ring-[#be9259] rounded p-3">
-            Projects
-          </a>
+        <Link
+          href="/projects"
+          className="text-xl font-normal ring ring-[#614828] hover:ring-[#be9259] rounded p-3"
+        >
+          Projects
         </Link>
       </div>
     </div>
-  );
+  )
 }

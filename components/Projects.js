@@ -1,5 +1,6 @@
 import userData from "@constants/data";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Projects() {
   return (
@@ -30,7 +31,7 @@ export default function Projects() {
 const ProjectCard = ({ title, link, github, imgUrl, desc, number }) => {
   return (
     <div className="rounded-2xl max-w-sm">
-      <a
+      <Link
         href={link}
         target={title === "Portfolio" ? "_self" : "_blank"}
         rel="noopener noreferrer"
@@ -40,6 +41,8 @@ const ProjectCard = ({ title, link, github, imgUrl, desc, number }) => {
           <div className="h-72 object-cover">
             <Image
               src={imgUrl}
+              width={500}
+              height={500}
               alt="portfolio"
               className="transform hover:scale-125 transition duration-2000 ease-out object-cover h-full w-full"
             />
@@ -53,13 +56,11 @@ const ProjectCard = ({ title, link, github, imgUrl, desc, number }) => {
             {number.length === 1 ? "0" + number : number}
           </h1>
         </div>
-      </a>
+      </Link>
       <div className="p-6">
         <h2 className="text-xl font-medium mb-2">{title}</h2>
-        <p>
-          {desc}
-        </p>
+        <p>{desc}</p>
       </div>
     </div>
-  );
+  )
 };
