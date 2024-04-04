@@ -5,7 +5,6 @@ const userData = {
   avatarUrl: "/logomin.PNG",
   avatarUrl_white: "/logomin_white.PNG",
   email: "crharrington11@gmail.com",
-  phone: "+1 (954) 235-3846",
   address: "Fort Worth, TX, United States.",
   projects: [
     {
@@ -49,7 +48,7 @@ const userData = {
     },
     {
       title: "Portfolio",
-      link: "https://chad-voxom-harrington.netlify.app/",
+      link: "https://chad-harrington.netlify.app/",
       github: "https://github.com/voxom/Portfolio",
       imgUrl: "/portfolio.PNG",
       description: "Built using Next.js and TailwindCSS.",
@@ -58,14 +57,21 @@ const userData = {
   about: {
     title: "Chad Harrington",
     description: [
-      `As a Software Engineer,`,
-      `I am dedicated to solving problems and I am passionate about fully understanding the logic that drives these applications. Solving problems and designing reusable solutions are why I enjoy programming.`,
+      `Hello World! 👋`,
+      `I'm a software engineer with a zest for solving puzzles that live in code and thrive in the wild terrains of debugging. With a keyboard as my compass and a terminal as my map, 
+      I navigate the complexities of software development with a blend of precision and creativity.`,
+      `My journey began with a simple "Hello World!" and has since expanded into a symphony of languages, frameworks, and technologies. I'm a lifelong learner, constantly updating my arsenal
+      with the latest tools and best practices. My code is clean, my algorithms are efficient, and my deployments are seamless.`,
+      `I believe that the best software is not just written-it's crafted. It's the result of countless hours of refinement, collaboration, and a relentless pursuit of excellence. As a highly motivated engineer,
+      I'm always on the lookout for the next challenge, the next problem to solve, and the next innovation to bring to life.`,
+      `When I'm not in front of my computer screen, you'll find me exploring the latest tech meetups, contributing to open-source projects, or sharing my knowledge with budding developers. 
+      I'm not just building software; I'm building a better, more connected world-one line of code at a time.`,
     ],
     currentProject: "Contact Form",
-    currentProjectUrl: "https://chad-voxom-harrington.netlify.app/contact",
+    currentProjectUrl: "https://chad-harrington.netlify.app/contact",
   },
   resumeUrl:
-    "https://docs.google.com/document/d/1zgwGA3EDxlu6P99mpQ6Q4mGCdcHm90K69XZwpif637I/edit?usp=sharing",
+    "",
   socialLinks: {
     linkedin: "https://www.linkedin.com/in/chad-harrington73",
     github: "https://github.com/voxom",
