@@ -75,18 +75,7 @@ export default function Navbar() {
             >
               Contact
             </Link>
-            <Link
-              href={userData.resumeUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={`hover-underline-animation ${
-                router.asPath === `${userData.resumeUrl}`
-                  ? "text-gray-800 font-bold dark:text-gray-400"
-                  : "text-gray-600 dark:text-gray-300 font-normal"
-              }`}
-            >
-              Resume
-            </Link>
+      
             <button
               aria-label="Toggle Dark Mode"
               type="button"
@@ -124,6 +113,7 @@ export default function Navbar() {
       </div>
       {/* mobile-navbar */}
       <div className="space-x-6 sm:space-x-9 text-center md:hidden mt-4">
+        {/* TODO: Add Logo */}
         <Link
           href="/about"
           className="text-base font-normal"

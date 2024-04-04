@@ -67,7 +67,7 @@ const userData = {
   resumeUrl:
     "https://docs.google.com/document/d/1zgwGA3EDxlu6P99mpQ6Q4mGCdcHm90K69XZwpif637I/edit?usp=sharing",
   socialLinks: {
-    linkedin: "https://www.linkedin.com/in/chad-voxom-harrington",
+    linkedin: "https://www.linkedin.com/in/chad-harrington73",
     github: "https://github.com/voxom",
     email: "crharrington11@gmail.com",
   },

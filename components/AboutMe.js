@@ -30,22 +30,7 @@ export default function AboutMe() {
                 <br />
               </div>
             ))}
-            <div>
-              <div>
-                <iframe
-                  width="100%"
-                  height="315"
-                  display="fit-content"
-                  src="https://www.youtube.com/embed/PCeLkH8ohxw?si=rv4vSsYSfLLL_c48"
-                  title="YouTube video player"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                ></iframe>
-                <br />
-                <br />
-                <br />
-              </div>
-            </div>
+            
             <div className="text-3xl md:text-4xl mx-4">
               <p className="font-bold">Currently working on</p>
               <br />
