@@ -24,7 +24,7 @@ export default function AboutMe() {
           <div>
             {userData.about.description?.map((desc, idx) => (
               <div key={idx}>
-                <p className="text-justify text-xl leading-8">{desc}</p>
+                <p className="text-center text-xl leading-8">{desc}</p>
                 <br />
                 <br />
                 <br />
@@ -37,7 +37,7 @@ export default function AboutMe() {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-[tan] hover:bg-gray-600 rounded-md p-1 text-gray-900 hover:text-gray-50"
+                className="bg-[tan] hover:bg-gray-600 rounded-md p-3 text-gray-900 hover:text-gray-50"
                 href={userData.about.currentProjectUrl}
               >
                 {userData.about.currentProject}

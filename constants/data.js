@@ -57,21 +57,17 @@ const userData = {
   about: {
     title: "Chad Harrington",
     description: [
-      `Hello World! 👋`,
-      `I'm a software engineer with a zest for solving puzzles that live in code and thrive in the wild terrains of debugging. With a keyboard as my compass and a terminal as my map, 
-      I navigate the complexities of software development with a blend of precision and creativity.`,
-      `My journey began with a simple "Hello World!" and has since expanded into a symphony of languages, frameworks, and technologies. I'm a lifelong learner, constantly updating my arsenal
-      with the latest tools and best practices. My code is clean, my algorithms are efficient, and my deployments are seamless.`,
-      `I believe that the best software is not just written-it's crafted. It's the result of countless hours of refinement, collaboration, and a relentless pursuit of excellence. As a highly motivated engineer,
-      I'm always on the lookout for the next challenge, the next problem to solve, and the next innovation to bring to life.`,
-      `When I'm not in front of my computer screen, you'll find me exploring the latest tech meetups, contributing to open-source projects, or sharing my knowledge with budding developers. 
-      I'm not just building software; I'm building a better, more connected world-one line of code at a time.`,
+      `Greetings & Salutations 👋`,
+      `I'm a Software Engineer adept at solving complex problems and creating reusable solutions. `,
+      `I navigate the complexities of software development with a blend of precision and creativity. `,
+      `My journey began with a simple "Hello World!" and has since expanded into a symphony of languages, frameworks, and technologies.`,
+      `I believe that the best software is the result of countless hours of refinement, collaboration, and a relentless pursuit of excellence. `,
+      `As a highly motivated engineer, I'm always on the lookout for the next challenge, the next problem to solve, and the next innovation to bring to life.`,
     ],
-    currentProject: "Contact Form",
-    currentProjectUrl: "https://chad-harrington.netlify.app/contact",
+    currentProject: " Jasper ",
+    currentProjectUrl: "https://chad-harrington.netlify.app/jasper",
   },
-  resumeUrl:
-    "",
+  resumeUrl: "",
   socialLinks: {
     linkedin: "https://www.linkedin.com/in/chad-harrington73",
     github: "https://github.com/voxom",

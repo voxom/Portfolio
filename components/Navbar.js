@@ -50,7 +50,15 @@ export default function Navbar() {
         </div>
         <div>
           <div className="space-x-8 hidden md:block text-xl">
-            <Link href="/about" className="m-4" rel="noopener noreferrer">
+            <Link
+              href="/about"
+              rel="noopener noreferrer"
+              className={`hover-underline-animation ${
+                router.asPath === "/about"
+                  ? "text-gray-800 font-bold dark:text-gray-400"
+                  : "text-gray-600 dark:text-gray-300 font-normal"
+              }`}
+            >
               About
             </Link>
             <Link
@@ -65,6 +73,17 @@ export default function Navbar() {
               Projects
             </Link>
             <Link
+              href="/jasper"
+              rel="noopener noreferrer"
+              className={`hover-underline-animation ${
+                router.asPath === "/jasper"
+                  ? "text-gray-800 font-bold dark:text-gray-400"
+                  : "text-gray-600 dark:text-gray-300 font-normal"
+              }`}
+            >
+              Jasper
+            </Link>
+            <Link
               href="/contact"
               rel="noopener noreferrer"
               className={`hover-underline-animation ${
@@ -75,7 +94,7 @@ export default function Navbar() {
             >
               Contact
             </Link>
-      
+
             <button
               aria-label="Toggle Dark Mode"
               type="button"
