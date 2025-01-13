@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Waves from "./Waves";
 import { useRouter } from "next/router";
-
+//
 
 export default function ContainerBox({ children, ...customMeta }) {
     const router = useRouter();
